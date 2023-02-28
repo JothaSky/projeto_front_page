@@ -4,7 +4,7 @@
     --cinza-secundario: #C0C0C0;
     --botao-azul: #167df7;
     --cor-fundo: #00030c;
-    --fonte-principal: 'inter', sans-serif;
+    --fonte-principal:'Inter', sans-serif;
 
 }
 body{
@@ -100,16 +100,18 @@ text-align: center;
     color: var(--branco-principal);
 
 }
+.rodape{
+    text-align: center;
+    margin: 5em 3em; 
+}
 .rodape__logo{
-    display: flex;
-    justify-content: center;
-    
+    margin-bottom: 2.5em;
 }
 .rodape__lista{
     display: flex;
     justify-content: center;
     list-style-type: none;
-    margin-top: 1em;
+    gap: 1em;
 }
 .lista__link a{
     text-decoration: none;
@@ -120,6 +122,6 @@ text-align: center;
 .rodape__texto {
     margin: 1em 0;
     color: var(--cinza-secundario);
-    font-size: 14px;
+    font-size: 15px;
    
 }
