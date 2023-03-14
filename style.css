@@ -112,6 +112,7 @@ text-align: center;
     justify-content: center;
     list-style-type: none;
     gap: 1em;
+    color: var(--branco-principal);
 }
 .lista__link a{
     text-decoration: none;
@@ -125,3 +126,5 @@ text-align: center;
     font-size: 15px;
    
 }
+.rodape__lista :hover{
+    color: yellow
